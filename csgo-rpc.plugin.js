@@ -12,7 +12,7 @@ class CSGORpc {
 	}
 
 	getVersion () {
-		return "0.0.2";
+		return "0.0.3";
 	}
 
 	getAuthor () {
@@ -33,7 +33,7 @@ class CSGORpc {
 
 	/* Code related to Animations */
 	load () {
-		rpc_client.login({ clientId: "780128394409934878" });
+		
 	}
 
 	activity = {
@@ -72,9 +72,9 @@ class CSGORpc {
 		"ar_baggage",
 		"de_sugarcane",
 		"de_bank",
-		"de_stmarc"
-
-
+		"de_stmarc",
+		"dz_blacksite",
+		"dz_sirocco"
 	]
 	modes = {
 		"gungameprogressive": "Arms Race",
@@ -97,6 +97,8 @@ class CSGORpc {
 	}
 
 	start () {
+		rpc_client.login({ clientId: "780128394409934878" });
+		
 		if(!this.getData("port")){
 			BdApi.alert("CS:GO RPC ERROR", "You need to specify CS:GO GSI Port in plugin settings!");
 			return;

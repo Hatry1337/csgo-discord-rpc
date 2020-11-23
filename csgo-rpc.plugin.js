@@ -12,7 +12,7 @@ class CSGORpc {
 	}
 
 	getVersion () {
-		return "0.0.1";
+		return "0.0.2";
 	}
 
 	getAuthor () {
@@ -42,25 +42,39 @@ class CSGORpc {
 	}
 	maps = [
 		"cs_militia",
-		"de_assault",
-		"de_cobblestone",
-		"de_italy",
+		"cs_assault",
+		"de_cbble",
+		"cs_italy",
 		"de_mutini",
-		"de_overpas",
+		"de_overpass",
 		"de_swamp",
-		"de_agency",
+		"cs_agency",
 		"de_cache",
 		"de_dust2",
 		"de_lake",
 		"de_nuke",
-		"de_rialto",
+		"gd_rialto",
 		"de_vertigo",
 		"de_anubis",
 		"de_canals",
 		"de_inferno",
 		"de_mirage",
-		"de_office",
+		"cs_office",
 		"de_shortdust",
+		"de_train",
+		"de_shortnuke",
+		"de_mutiny",
+		"de_safehouse",
+		"ar_dizzy",
+		"ar_shoots",
+		"ar_lunacy",
+		"ar_monastery",
+		"ar_baggage",
+		"de_sugarcane",
+		"de_bank",
+		"de_stmarc"
+
+
 	]
 	modes = {
 		"gungameprogressive": "Arms Race",
